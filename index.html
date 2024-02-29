@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="script.js"></script>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Home</title>
+  </head>
+  <body>
+    <!-- Move to up button -->
+    <div class="scroll-button">
+      <a href="#home"><i class="fas fa-arrow-up"></i></a>
+    </div>
+    <header class="header">
+      <a href="./index.html" class="logo">Dimanthika <span>Polpitiya</span></a>
+
+      <i class="bx bx-menu menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="./index.html">Home</a>
+        <a href="./about.html">About</a>
+        <a href="./services.html">Services</a>
+        <a href="./contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <section class="home">
+      <div class="home-img">
+        <img src="images/about.jpg" alt="" />
+      </div>
+      <audio controls>
+        <source src="images/hello.mp3" type="audio/mpeg">
+    </audio>
+    <!-- Voice button -->
+    <button onclick="speakHello()"></button>
+
+
+      <div class="home-content">
+        <h1>It's <span>Dimanthika</span></h1>
+
+        <h3 class="text-animation">I'm a <span class="auto-type"></span></h3>
+
+        <p>
+          To get in touch with me, please feel free to contact me at <a href="tel:+94763762961">0763762961</a>. I'm always available and excited to discuss potential collaborations, answer any inquiries, or provide further information about my web development services. Don't hesitate to reach out, and I'll be happy to connect with you and explore how we can work together to bring your digital vision to life.
+        </p>
+
+        <div class="social-icons">
+          <a href="https://www.instagram.com/Dimanthika"><i class="bx bxl-instagram-alt"></i></a>
+          <a href="https://github.com/Dimanthika"><i class="bx bxl-github"></i></a>
+          <a href="https://www.facebook.com/dimanthika.polpitiya"><i class="bx bxl-facebook-circle"></i></a>
+          <a href="https://www.linkedin.com/in/dimanthika-polpitiya-69420a1ba?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="bx bxl-linkedin-square"></i></a>
+        </div>
+       <p>
+        <a href="./contact.html" class="btn">Hire Me</a>
+      </p>
+
+  <video id="my-video" controls>
+      <source src="images/welcome.mp4" type="video/mp4">
+  </video>
+
+       
+    </section>
+    <section class="slider-section">
+      <div class="slider-container">
+        <img src="images/slide1.jpg" alt="Slide 1" class="slide" id="slide1">
+        <img src="images/slide2.jpg" alt="Slide 2" class="slide" id="slide2">
+        <img src="images/slide3.jpg" alt="Slide 3" class="slide" id="slide3">
+      </div>
+  
+      <div style="text-align: center;">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+    </section>
+  
+
+    <section>
+      <h2 class="heading heading-testimonial">Testimonials</h2>
+      <div class="testimonial">
+        <div>
+          <div class="testimonial-box">
+            <img src="./images/customer-1.jpg" class="customer-img" />
+            <p class="customer-name">Fathima</p>
+            <div class="stars">
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+            </div>
+            <p class="customer-review">
+              Working with Dimanthika was an absolute pleasure! Their attention to detail, creativity, and commitment to delivering high-quality work exceeded my expectations. They transformed my vision into a stunning website that perfectly represents my brand. I highly recommend Dimanthika for any web design project.
+            </p>
+          </div>
+        </div>
+        <div>
+          <div class="testimonial-box">
+            <img src="./images/customer-2.jpg" class="customer-img" />
+            <p class="customer-name">John</p>
+            <div class="stars">
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+            </div>
+            <p class="customer-review">
+              Working with Dimanthika as our content manager has been a game-changer for our brand. Her ability to curate engaging and relevant content across various platforms is impressive. She understands our audience, tailors her messaging effectively, and consistently delivers high-quality articles, blog posts, and social media updates. Dimanthika is a true wordsmith, and her attention to detail ensures that our content resonates with our target audience.
+            </p>
+          </div>
+        </div>
+        <div>
+          <div class="testimonial-box">
+            <img src="./images/customer-3.jpg" class="customer-img" />
+            <p class="customer-name">Jessica</p>
+            <div class="stars">
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+            </div>
+            <p class="customer-review">
+              I’ve had the pleasure of collaborating with Dimanthika on multiple design projects, and her creativity knows no bounds. Her eye for aesthetics, mastery of design tools, and ability to translate ideas into visually stunning graphics are commendable. Whether it’s a logo, a website layout, or an eye-catching social media post, Dimanthika consistently delivers exceptional designs. Her work has elevated our brand’s visual identity, and I highly recommend her to anyone seeking top-notch graphic design services
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="text">
+        <span>Created By <a href="#">Dimanthika Thathsarani Polpitiya</a> | &#169; 2024 All Rights Reserved</span>
+      </div>
+    </footer>
+    <script src="./typeWriting/typed.js/dist/typed.umd.js"></script>
+    <script>
+      const typed = new Typed(".auto-type", {
+        strings: [
+          "Web Developer",
+          "UX / UI Designer",
+          "Content Manager",
+          "Graphic Designer",
+        ],
+        typeSpeed: 50,
+        backSpeed: 50,
+        loop: true,
+      });
+    </script>
+  </body>
+</html>
